@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -43,7 +42,7 @@
         <!--Sveglia-->
         <scene sceneID="hPP-Ye-iSr">
             <objects>
-                <tableViewController title="Sveglia" id="rsQ-uN-kl2" customClass="ViewController" sceneMemberID="viewController">
+                <tableViewController title="Sveglia" id="rsQ-uN-kl2" customClass="SveglieViewController" customModule="SvegliaGPS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="playback" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" canCancelContentTouches="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" sectionIndexMinimumDisplayRowCount="1" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gJd-gW-MLg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

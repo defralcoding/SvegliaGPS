@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		33C1CA4220E69B20004CA978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1CA4120E69B20004CA978 /* AppDelegate.swift */; };
 		33C1CA4520E69B20004CA978 /* SvegliaGPS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33C1CA4320E69B20004CA978 /* SvegliaGPS.xcdatamodeld */; };
-		33C1CA4720E69B20004CA978 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1CA4620E69B20004CA978 /* MasterViewController.swift */; };
+		33C1CA4720E69B20004CA978 /* Sveglie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1CA4620E69B20004CA978 /* Sveglie.swift */; };
 		33C1CA4920E69B20004CA978 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1CA4820E69B20004CA978 /* DetailViewController.swift */; };
 		33C1CA4C20E69B20004CA978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C1CA4A20E69B20004CA978 /* Main.storyboard */; };
 		33C1CA4E20E69B20004CA978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C1CA4D20E69B20004CA978 /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 		33C1CA3E20E69B20004CA978 /* SvegliaGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvegliaGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C1CA4120E69B20004CA978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33C1CA4420E69B20004CA978 /* SvegliaGPS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SvegliaGPS.xcdatamodel; sourceTree = "<group>"; };
-		33C1CA4620E69B20004CA978 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		33C1CA4620E69B20004CA978 /* Sveglie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sveglie.swift; sourceTree = "<group>"; };
 		33C1CA4820E69B20004CA978 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		33C1CA4B20E69B20004CA978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33C1CA4D20E69B20004CA978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				33C1CA4120E69B20004CA978 /* AppDelegate.swift */,
-				33C1CA4620E69B20004CA978 /* MasterViewController.swift */,
+				33C1CA4620E69B20004CA978 /* Sveglie.swift */,
 				33C1CA4820E69B20004CA978 /* DetailViewController.swift */,
 				33C1CA5820E69C23004CA978 /* EditViewController.swift */,
 				33C1CA5920E69C23004CA978 /* ViewController.swift */,
@@ -151,7 +151,7 @@
 				33C1CA5A20E69C23004CA978 /* EditViewController.swift in Sources */,
 				33C1CA4520E69B20004CA978 /* SvegliaGPS.xcdatamodeld in Sources */,
 				33C1CA4220E69B20004CA978 /* AppDelegate.swift in Sources */,
-				33C1CA4720E69B20004CA978 /* MasterViewController.swift in Sources */,
+				33C1CA4720E69B20004CA978 /* Sveglie.swift in Sources */,
 				33C1CA4920E69B20004CA978 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DefralCoding.SvegliaGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DefralCoding.SvegliaGPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
